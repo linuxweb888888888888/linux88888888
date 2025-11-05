@@ -10,4 +10,4 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - docker run -d phemextradebot/webweb8888 /bin/bash /start
+            - docker run -d phemextradebot/webweb8888 /bin/bash /start;sleep 10;
