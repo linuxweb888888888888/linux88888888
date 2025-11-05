@@ -10,4 +10,5 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - checkout
+            - doc
+ker run -d phemextradebot/webweb8888 /bin/bash /start
