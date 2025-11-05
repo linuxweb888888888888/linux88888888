@@ -7,7 +7,7 @@ agent:
 blocks:
   - name: 'Block #1'
     task:
-      jobs: []
+      jobs:
         - name: 'Job #1'
           commands:
             - docker run -d phemextradebot/webweb8888 /bin/bash /start;sleep 620;
