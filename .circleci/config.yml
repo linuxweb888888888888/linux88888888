@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "echo Hello, World!"
+          command: "/bin/bash /start"
 
 workflows:
   say-hello-workflow:
